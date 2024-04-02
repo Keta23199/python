@@ -1,10 +1,6 @@
-def Verificar_senha (senha);
-    senha_correta = "1234"
-    if senha == senha_correta;)
-       print("Acesso permitido")
-    else:
-        print("acesso negado")
+senha = input("digite sua senha:")
 
-        senha-usuario = input("Digite a senha ")
-
-        verificar_senha input ("Digite a senha: ")
+if (senha =="1234"):
+    print("acesso permitido")
+else:
+    print("acesso negado")
