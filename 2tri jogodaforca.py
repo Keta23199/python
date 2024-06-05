@@ -56,10 +56,14 @@ def sorteiapalavra():
     lista["amor", "ketlin","tavares",]
 return random.choice(lista)
 import random
+print(sorteiapalavra())
+def apresentapalavra(letras,palavra):
+    npalavra="_"*len("amor") 
+    return npalavra
+print(apresentapalavra("ab","abacaxi"))
 
 
 
 
 
 
-print(sorteiopalavra)
